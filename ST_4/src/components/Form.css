@@ -18,7 +18,8 @@ h1 {
     text-align: center;
     height: 450px;
     width: 400px;
-    background-color: #16eb0a;
+    /* background-color: #16eb0a;*/
+    background-color: rgba(59, 219, 31, 0.883);
     margin: auto;
     margin-top: 50px;
     border-radius: 15px;
@@ -73,15 +74,5 @@ h1 {
     box-shadow: 2px 3px 6px 2px #fff;
 }
 
-/* .image{
-    margin-left: 870px;
-    margin-top: -600px;
-}
 
-.imagecup{
-    height: 350px;
-    width: 220px;
-    margin-right: 830px;
-    background: none;
-    margin-top: -600px;
-} */
+

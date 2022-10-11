@@ -10,7 +10,7 @@ export default function Added() {
 
   return (
     <div className='background'>
-    <h1>PERSON'S DATA</h1>
+    <h1>STUDENT'S <br></br>PLACEMENT DATA</h1>
     <div className='tablecard'>
       <table>
         <thead>

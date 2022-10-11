@@ -3,7 +3,7 @@
 }
 .background{
     margin-top: 0;
-    /* background-image: url(worldcup.jpg); */
+    background-image: url(wallpaper.jpg);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -23,10 +23,10 @@
     margin-top: 50px;
     height: 500px;
     width: 500px;
-    background-color: rgb(73, 235, 15);
+    background-color: rgba(59, 219, 31, 0.883);
     opacity: 0.9;
     border-radius: 15px;
-    box-shadow: 3px 4px 8px 3px rgba(0,0,0,0.8) ;
+    box-shadow: 3px 4px 8px 3px rgba(28, 2, 2, 0.8) ;
     
 
 }
@@ -40,7 +40,7 @@
 .tablecard td{
     font-weight: bold;
     font-size: 20px;
-    color: rgb(106, 116, 106);
+    color: rgb(199, 17, 48);
 }
 
 

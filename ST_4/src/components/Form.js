@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import Specailization from './Specailization';
 import './Form.css';
 import { Link, useNavigate } from 'react-router-dom';
-// import cricketer from './cricketer.jpg';
-// import cup from './cup.png'
+
 
 
 export default function Form() {
@@ -22,7 +21,7 @@ export default function Form() {
   }
 
   return (
-    <div>
+    <div className='background'>
       <h1>PLACEMENT DATA</h1>
       <form className='container'>
         <label>NAME</label><br></br>
@@ -30,15 +29,12 @@ export default function Form() {
         <label>SPECIALIZATION</label><br></br>
         <input type="text"   placeholder='Enter your Age' onChange={(e) => setspecailization(e.target.value)} required></input><br></br>
         <label >MAJOR PROJECT</label><br></br>
-        <input type="number" placeholder='Work' onChange={(e) => setwork(e.target.value)} required></input><br></br>
+        <input type="number" placeholder='Enter number of Projects' onChange={(e) => setwork(e.target.value)} required></input><br></br>
         <Link to='/added'>
           <input className='btn' type="submit" onClick={handleSubmit}></input>
         </Link>
 
       </form>
-
-      {/* <img className='imagecup' src={}></img>
-      <img className='image' src={}></img> */}
 
     </div>
   )
